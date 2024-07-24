@@ -1,3 +1,4 @@
 variable "vm_count" {
-  default = 2
+  type        = number
+  description = "The number of virtual machines to deploy."
 }
